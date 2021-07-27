@@ -1,5 +1,6 @@
-package com.github.gaboso.behavior.responsibility;
+package com.github.gaboso.behavior.responsibility.sender;
 
+import com.github.gaboso.behavior.responsibility.PaperCurrency;
 import com.github.gaboso.behavior.responsibility.receiver.FiftyDispenser;
 import com.github.gaboso.behavior.responsibility.receiver.HundredDispenser;
 import com.github.gaboso.behavior.responsibility.receiver.PaperCurrencyDispenser;

@@ -1,5 +1,7 @@
 package com.github.gaboso.behavior.responsibility;
 
+import com.github.gaboso.behavior.responsibility.sender.ATMWithdrawal;
+
 import java.util.Scanner;
 
 public class ResponsibilityMain {

@@ -7,3 +7,4 @@
 * [Iterator Pattern](src/main/java/com/github/gaboso/behavior/iterator)
 * [Mediator Pattern](src/main/java/com/github/gaboso/behavior/mediator)
 * [Memento Pattern](src/main/java/com/github/gaboso/behavior/memento)
+* [Observer Pattern](src/main/java/com/github/gaboso/behavior/observer)

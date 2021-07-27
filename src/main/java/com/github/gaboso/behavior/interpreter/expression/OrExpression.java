@@ -2,8 +2,8 @@ package com.github.gaboso.behavior.interpreter.expression;
 
 public class OrExpression implements Expression {
 
-    private Expression expressionOne;
-    private Expression expressionTwo;
+    private final Expression expressionOne;
+    private final Expression expressionTwo;
 
     public OrExpression(Expression expressionOne, Expression expressionTwo) {
         this.expressionOne = expressionOne;

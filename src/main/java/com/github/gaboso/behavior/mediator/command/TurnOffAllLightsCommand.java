@@ -4,7 +4,7 @@ import com.github.gaboso.behavior.mediator.Mediator;
 
 public class TurnOffAllLightsCommand implements Command {
 
-    private Mediator mediator;
+    private final Mediator mediator;
 
     public TurnOffAllLightsCommand(Mediator mediator) {
         this.mediator = mediator;
@@ -14,6 +14,5 @@ public class TurnOffAllLightsCommand implements Command {
     public void execute() {
         mediator.turnOffAllLights();
     }
-
 
 }

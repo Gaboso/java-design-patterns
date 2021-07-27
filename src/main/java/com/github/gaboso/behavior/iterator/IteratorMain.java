@@ -2,10 +2,10 @@ package com.github.gaboso.behavior.iterator;
 
 import java.util.Iterator;
 
-public class IteratorDemo {
+public class IteratorMain {
 
     public static void main(String[] args) {
-        BikeRepository bikeRepository = new BikeRepository();
+        var bikeRepository = new BikeRepository();
 
         bikeRepository.addBike("Cervelo");
         bikeRepository.addBike("Scott");

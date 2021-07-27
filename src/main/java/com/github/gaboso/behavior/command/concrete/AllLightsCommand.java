@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AllLightsCommand implements Command {
 
-    private List<Light> lights;
+    private final List<Light> lights;
 
     public AllLightsCommand(List<Light> lights) {
         this.lights = lights;

@@ -1,11 +1,11 @@
-package com.github.gaboso.behavior.interpreter.client;
+package com.github.gaboso.behavior.interpreter;
 
 import com.github.gaboso.behavior.interpreter.expression.AndExpression;
 import com.github.gaboso.behavior.interpreter.expression.Expression;
 import com.github.gaboso.behavior.interpreter.expression.OrExpression;
 import com.github.gaboso.behavior.interpreter.expression.TerminalExpression;
 
-public class InterpreterDemo {
+public class InterpreterMain {
 
     static Expression buildInterpreterTree() {
         Expression terminalLions = new TerminalExpression("Lions");

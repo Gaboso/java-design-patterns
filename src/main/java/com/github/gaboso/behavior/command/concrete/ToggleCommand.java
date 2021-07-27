@@ -5,7 +5,7 @@ import com.github.gaboso.behavior.command.receiver.Light;
 
 public class ToggleCommand implements Command {
 
-    private Light light;
+    private final Light light;
 
     public ToggleCommand(Light light) {
         this.light = light;

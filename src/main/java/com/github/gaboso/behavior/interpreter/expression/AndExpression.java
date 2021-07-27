@@ -2,8 +2,8 @@ package com.github.gaboso.behavior.interpreter.expression;
 
 public class AndExpression implements Expression {
 
-    private Expression expressionOne;
-    private Expression expressionTwo;
+    private final Expression expressionOne;
+    private final Expression expressionTwo;
 
     public AndExpression(Expression expressionOne, Expression expressionTwo) {
         this.expressionOne = expressionOne;

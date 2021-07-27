@@ -2,14 +2,14 @@ package com.github.gaboso.behavior.responsibility;
 
 import java.util.Scanner;
 
-public class Main {
+public class ResponsibilityMain {
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try (var scanner = new Scanner(System.in)) {
             do {
                 System.out.println("Please enter amount to withdraw (multiple of 10, max $1000, Press Ctrl + C to end): ");
 
-                int amount = scanner.nextInt();
+                var amount = scanner.nextInt();
                 if (isValid(amount)) {
                     ATMWithdrawal.withdraw(new PaperCurrency(amount));
                 }

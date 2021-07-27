@@ -5,14 +5,14 @@ import com.github.gaboso.behavior.mediator.command.TurnOffAllLightsCommand;
 import com.github.gaboso.behavior.mediator.command.TurnOnAllLightsCommand;
 import com.github.gaboso.behavior.mediator.receiver.Light;
 
-public class MediatorDemo {
+public class MediatorMain {
 
 
     public static void main(String[] args) {
-       Mediator mediator = new Mediator();
+        var mediator = new Mediator();
 
-        Light bedroomLight = new Light("Bedroom");
-        Light kitchenLight = new Light("Kitchen");
+        var bedroomLight = new Light("Bedroom");
+        var kitchenLight = new Light("Kitchen");
 
         mediator.registerLight(bedroomLight);
         mediator.registerLight(kitchenLight);

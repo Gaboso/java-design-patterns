@@ -4,7 +4,7 @@ import com.github.gaboso.behavior.mediator.receiver.Light;
 
 public class OnCommand implements Command {
 
-    private Light light;
+    private final Light light;
 
     public OnCommand(Light light) {
         this.light = light;
@@ -14,4 +14,5 @@ public class OnCommand implements Command {
     public void execute() {
         light.on();
     }
+
 }

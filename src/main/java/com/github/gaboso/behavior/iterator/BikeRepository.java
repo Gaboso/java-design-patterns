@@ -1,6 +1,7 @@
 package com.github.gaboso.behavior.iterator;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
@@ -16,10 +17,9 @@ public class BikeRepository implements Iterable<String> {
 
     public void addBike(String bike) {
         if (index == bikes.length) {
-            String[] largerBikes = new String[bikes.length + 5];
+            var largerBikes = new String[bikes.length + 5];
             System.arraycopy(bikes, 0, largerBikes, 0, bikes.length);
             bikes = largerBikes;
-            largerBikes = null;
         }
 
         bikes[index] = bike;
@@ -29,7 +29,7 @@ public class BikeRepository implements Iterable<String> {
 
     @Override
     public Iterator<String> iterator() {
-        Iterator<String> iterator = new Iterator<>() {
+        return new Iterator<>() {
 
             private int currentIndex = 0;
 
@@ -40,6 +40,10 @@ public class BikeRepository implements Iterable<String> {
 
             @Override
             public String next() {
+                if (!hasNext()) {
+                    throw new NoSuchElementException();
+                }
+
                 return bikes[currentIndex++];
             }
 
@@ -48,13 +52,11 @@ public class BikeRepository implements Iterable<String> {
                 throw new UnsupportedOperationException();
             }
         };
-
-        return iterator;
     }
 
     @Override
     public void forEach(Consumer<? super String> action) {
-
+        throw new UnsupportedOperationException();
     }
 
     @Override

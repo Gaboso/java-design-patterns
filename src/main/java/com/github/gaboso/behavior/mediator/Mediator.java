@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Mediator {
 
-
     private final List<Light> lights = new ArrayList<>();
 
     public void registerLight(Light light) {

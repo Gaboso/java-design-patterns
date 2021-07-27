@@ -8,3 +8,4 @@
 * [Mediator Pattern](src/main/java/com/github/gaboso/behavior/mediator)
 * [Memento Pattern](src/main/java/com/github/gaboso/behavior/memento)
 * [Observer Pattern](src/main/java/com/github/gaboso/behavior/observer)
+* [State Pattern](src/main/java/com/github/gaboso/behavior/state)

@@ -22,6 +22,24 @@
 
 * I have also used the Interpreter pattern in the example of the [Command Design Pattern](../command) for interpreting the appliance and its operation to perform in the command string.
 
+### Concepts
+
+* Represent grammar
+* Interpret a sentence
+* Map a domain
+* AST
+* Examples:
+    * `java.util.Pattern`
+    * `java.text.Format`
+
+### Design Considerations
+
+* AbstractExpression
+* Interpret
+* TerminalExpression
+* NonTerminalExpression
+* Context, AbstractExpression, TerminalExpression, NonTerminalExpression, Client
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/interpreter.png)

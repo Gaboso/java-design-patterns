@@ -34,6 +34,24 @@ And then concrete classes that represent various states and a _context object_ w
 * Java `Threads` are another good example of **State** pattern since they have defined states as
 _New, Runnable, Blocked, Waiting, Timed Waiting_ and _Terminated_.
 
+### Concepts
+
+* Localize state behavior
+* State Object
+* Separates What from Where
+* OCP
+* Examples:
+    * None!
+    * JSF
+    * Iterator
+
+### Design Considerations
+
+* Abstract Class / Interface
+* Class based
+* Context unaware
+* Context, State, ConcreteState
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/state.png)

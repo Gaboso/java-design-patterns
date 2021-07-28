@@ -34,6 +34,24 @@ that will eliminate the requirement of every class having its own **Memento** cl
 
 * The **Memento Design Pattern** can also be used with the [Command Design Pattern](../command) for achieving undo of the commands.
 
+### Concepts
+
+* Restore Objects to previous state
+* Externalize internal state
+* Undo/Rollback
+* Shields complex internals
+* Examples:
+    * `java.util.Date`
+    * `java.io.Serializable`
+
+### Design Considerations
+
+* Class based
+* Originator
+* Caretaker
+* Memento
+* Magic Cookie
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/memento.png)

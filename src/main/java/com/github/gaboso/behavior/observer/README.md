@@ -26,6 +26,26 @@ one-for-one correspondence with notifications. For a richer event model, conside
 For reliable and ordered messaging among threads, consider using one of the concurrent data structures in the `java.util.concurrent` package.
 For reactive streams style programming, see the `Flow` API.
 
+### Concepts
+
+* One to Many
+* Decoupled
+* Event Handling
+* Pub/Sub
+* M-V-C
+* Examples:
+    * `java.util.Observer`
+    * `java.util.EventListener`
+    * `javax.jms.Topic`
+
+### Design Considerations
+
+* Subject
+* Observer
+* Observable
+* Views are Observers
+* Subject, ConcreteSubject, Observer, ConcreteObserver
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/observer.png)

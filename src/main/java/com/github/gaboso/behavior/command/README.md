@@ -29,6 +29,25 @@ to perform operations on different objects. These objects call **Receiver** obje
 
 * Different **Command** object may have different **Receiver** object to act on.
 
+### Concepts
+
+* Encapsulate request as an Object
+* Object-oriented callback
+* Decouple sender from processor
+* Often used for _undo_ functionality
+* Examples:
+    * `java.lang.Runnable`
+    * `javax.swing.Action`
+
+### Design Considerations
+
+* Object per command
+* Command Interface
+* Execute Method
+* _"Unexecute"_ method
+* Reflection
+* Command, Invoker, ConcreteCommand
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/command.png)

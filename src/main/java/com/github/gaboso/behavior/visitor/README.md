@@ -26,6 +26,24 @@ it's inflexible to add new sub-classes each time a new operation is required.
 * The **Visitor Design Pattern** makes it possible to create _new operations independently_ of the classes of an object
 structure by adding new visitor objects.
 
+### Concepts
+
+* Separate Algorithm from Object
+* Adding new features
+* Maintain Open/Closed principle
+* Visitor changes
+* Examples:
+    * `java.lang.model.element.Element`
+    * `java.lang.model.element.ElementVisitor`
+
+### Design Considerations
+
+* Interface based
+* Visitor and Element
+* Elements have visit method
+* Visitor knows every Element
+* Visitor, ConcreteVisitor, Element, ConcreteElement
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/visitor.png)

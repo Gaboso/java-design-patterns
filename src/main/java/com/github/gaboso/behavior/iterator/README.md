@@ -19,6 +19,24 @@ That make our collection object easier to implement, change, test and reuse.
 * **Iterator** object also facilitate removing of member object while traversing the collection.
 So, it's one of the solution of `ConcurrentModificationException`.
 
+### Concepts
+
+* Traverse a container
+* Doesn't expose underlying structure
+* Decouples algorithms
+* Sequential
+* Examples:
+    * `java.util.Iterator`
+    * `java.util.Enumeration`
+
+### Design Considerations
+
+* Interface based
+* Factory Method based
+* Independent, but fail fast
+* Enumerators are fail-safe
+* Iterator, ConcreteIterator
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/iterator.png)

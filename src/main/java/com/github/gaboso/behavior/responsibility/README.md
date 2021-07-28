@@ -17,6 +17,25 @@
 
 * This pattern helps us avoid coupling of sender and receiver objects of a requests and allows us to have more than one receiver as well for the request.
 
+### Concepts
+
+* Decoupling of sender and receiver
+* Receiver contains reference to next receiver
+* Promote Loose coupling
+* No Handler - OK
+* Examples:
+    * `java.util.logging.Logger#log()`
+    * `javax.servlet.Filter#doFilter()`
+    * Spring Security Filter Chain
+
+### Design Considerations
+
+* Chain of receiver objects
+* Handler is Interface based
+* Concrete Handler for each implementation
+* Each Handler has a reference to the next
+* Handler, ConcreteHandler
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/chain_responsibility.png)

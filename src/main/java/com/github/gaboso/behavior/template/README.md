@@ -26,6 +26,24 @@ We can provide a default implementation as well.
 
 * The _template method_ uses and defines the sequence of steps to perform the algorithm.
 
+### Concepts
+
+* Code reuse
+* Common in libraries/frameworks
+* IoC
+* Algorithm emphasis
+* Examples:
+    * `java.util.Collections#sort()`
+    * `java.util.AbstractList#indexOf()`
+
+### Design Considerations
+
+* Abstract Base class
+* Base calls child
+* Hooks
+* Operations
+* AbstractBase, ConcreteClass
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/template.png)

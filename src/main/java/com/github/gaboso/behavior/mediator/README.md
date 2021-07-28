@@ -26,6 +26,24 @@ Whatsapp server handles all the communication between different whatsapp users.
 * **Air Traffic Control System** is also another great example in which all flights doing takeoff or landing communicates
  with the Air Traffic Control to manage their safe and smooth movement.
 
+### Concepts
+
+* Loose coupling
+* Well-defined, but complex
+* Reusable components
+* Hub / Router
+* Examples:
+    * `java.util.Timer`
+    * `java.lang.reflect.Method#invoke()`
+
+### Design Considerations
+
+* Interface based
+* Concrete class
+* Minimizes inheritance
+* Mediator knows about colleagues
+* Mediator, ConcreteMediator
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/mediator.png)

@@ -22,6 +22,24 @@ and reusable and avoids code duplication.
 
 * The client or context does not know which strategy (algorithm) it has to use.
 
+### Concepts
+
+* Eliminate conditional statements
+* Behaviour encapsulated in classes
+* Difficult to add new strategies
+* Client aware of strategies
+* Client chooses strategy
+* Examples:
+    * `java.util.Comparator`
+
+### Design Considerations
+
+* Abstract base class
+* Concrete class per strategy
+* Removes if/else conditionals
+* Strategies are independent
+* Context, Strategy, ConcreteStrategy
+
 ### UML Diagram
 
 ![uml diagram](../../../../../../../../.github/uploads/uml/strategy.png)

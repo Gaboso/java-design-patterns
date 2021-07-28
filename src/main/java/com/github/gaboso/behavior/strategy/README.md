@@ -22,6 +22,10 @@ and reusable and avoids code duplication.
 
 * The client or context does not know which strategy (algorithm) it has to use.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/strategy.png)
+
 ### Reference
 
 1. https://dzone.com/articles/strategy-vs-factory-design-pattern-in-java

@@ -17,6 +17,10 @@
 
 * This pattern helps us avoid coupling of sender and receiver objects of a requests and allows us to have more than one receiver as well for the request.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/chain_responsibility.png)
+
 ### Reference
 
 1. https://dzone.com/articles/using-chain-of-responsibility-design-pattern-in-ja

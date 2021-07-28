@@ -19,6 +19,10 @@ That make our collection object easier to implement, change, test and reuse.
 * **Iterator** object also facilitate removing of member object while traversing the collection.
 So, it's one of the solution of `ConcurrentModificationException`.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/iterator.png)
+
 ### Reference
 
 1. https://dzone.com/articles/iterator-design-pattern-in-java

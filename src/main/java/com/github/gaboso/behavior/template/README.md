@@ -26,6 +26,10 @@ We can provide a default implementation as well.
 
 * The _template method_ uses and defines the sequence of steps to perform the algorithm.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/template.png)
+
 ### Reference
 
 1. https://dzone.com/articles/using-template-method-design-pattern-in-java

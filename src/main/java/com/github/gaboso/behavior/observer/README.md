@@ -24,7 +24,11 @@ These are available since Java 1.
 is quite limited, the order of notifications delivered by `Observable` is unspecified, and state changes are not in
 one-for-one correspondence with notifications. For a richer event model, consider using the `java.beans` package.
 For reliable and ordered messaging among threads, consider using one of the concurrent data structures in the `java.util.concurrent` package.
- For reactive streams style programming, see the `Flow` API.
+For reactive streams style programming, see the `Flow` API.
+
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/observer.png)
 
 ### Reference
 

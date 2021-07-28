@@ -26,6 +26,10 @@ Whatsapp server handles all the communication between different whatsapp users.
 * **Air Traffic Control System** is also another great example in which all flights doing takeoff or landing communicates
  with the Air Traffic Control to manage their safe and smooth movement.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/mediator.png)
+
 ### Reference
 
 1. https://dzone.com/articles/mediator-design-pattern-in-java

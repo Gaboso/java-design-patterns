@@ -34,6 +34,10 @@ that will eliminate the requirement of every class having its own **Memento** cl
 
 * The **Memento Design Pattern** can also be used with the [Command Design Pattern](../command) for achieving undo of the commands.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/memento.png)
+
 ### Reference
 
 1. https://dzone.com/articles/memento-design-pattern-in-java

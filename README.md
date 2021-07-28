@@ -11,3 +11,4 @@
 * [State Pattern](src/main/java/com/github/gaboso/behavior/state)
 * [Strategy Pattern](src/main/java/com/github/gaboso/behavior/strategy)
 * [Template Method Pattern](src/main/java/com/github/gaboso/behavior/template)
+* [Visitor Pattern](src/main/java/com/github/gaboso/behavior/visitor)

@@ -22,6 +22,10 @@
 
 * I have also used the Interpreter pattern in the example of the [Command Design Pattern](../command) for interpreting the appliance and its operation to perform in the command string.
 
+### UML Diagram
+
+![uml diagram](../../../../../../../../.github/uploads/uml/interpreter.png)
+
 ### Reference
 
 1. https://dzone.com/articles/using-interpreter-design-pattern-in-java

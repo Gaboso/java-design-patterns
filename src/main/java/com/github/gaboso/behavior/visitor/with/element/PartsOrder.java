@@ -1,6 +1,5 @@
 package com.github.gaboso.behavior.visitor.with.element;
 
-import com.github.gaboso.behavior.visitor.with.element.AtvPart;
 import com.github.gaboso.behavior.visitor.with.visitor.AtvPartVisitor;
 
 import java.util.ArrayList;

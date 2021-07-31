@@ -2,13 +2,13 @@ package com.github.gaboso.creation.prototype;
 
 public class Book extends Item {
 
-	private int numberOfPages;
+    private int numberOfPages;
 
-	public int getNumberOfPages() {
-		return numberOfPages;
-	}
+    public int getNumberOfPages() {
+        return numberOfPages;
+    }
 
-	public void setNumberOfPages(int numberOfPages) {
-		this.numberOfPages = numberOfPages;
-	}
+    public void setNumberOfPages(int numberOfPages) {
+        this.numberOfPages = numberOfPages;
+    }
 }

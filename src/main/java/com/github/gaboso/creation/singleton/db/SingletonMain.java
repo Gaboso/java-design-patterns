@@ -39,7 +39,7 @@ public class SingletonMain {
             var statement = connection.createStatement();
             var resultSet = statement.executeQuery("Select * from Address");
         ) {
-            System.out.println("Result Set: "+resultSet);
+            System.out.println("Result Set: " + resultSet);
         } catch (SQLException e) {
             e.printStackTrace();
         }

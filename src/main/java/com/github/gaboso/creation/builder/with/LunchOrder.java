@@ -6,6 +6,7 @@ public class LunchOrder {
     private final String condiments;
     private final String dressing;
     private final String meat;
+
     private LunchOrder(Builder builder) {
         this.bread = builder.bread;
         this.condiments = builder.condiments;

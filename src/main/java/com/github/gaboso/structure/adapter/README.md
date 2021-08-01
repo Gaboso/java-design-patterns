@@ -1,4 +1,4 @@
-# Adapter Pattern
+# Adapter Design Pattern
 
 The adapter design pattern is a structural design pattern that allows two unrelated/uncommon interfaces to work together.
 In other words, the adapter pattern makes two incompatible interfaces compatible without changing their existing code.
@@ -51,4 +51,4 @@ This makes the adapter tool essential because it can make/convert incompatible c
 
 ### Reference
 
-1.
+1. https://dzone.com/articles/adapter-design-pattern-in-java

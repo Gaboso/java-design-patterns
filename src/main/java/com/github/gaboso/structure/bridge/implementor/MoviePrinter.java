@@ -16,6 +16,11 @@ public class MoviePrinter extends Printer {
     }
 
     @Override
+    protected String getHeader() {
+        return movie.getClassification();
+    }
+
+    @Override
     protected List<Detail> getDetails() {
         List<Detail> details = new ArrayList<>();
 
@@ -24,11 +29,6 @@ public class MoviePrinter extends Printer {
         details.add(new Detail("Runtime", movie.getRuntime()));
 
         return details;
-    }
-
-    @Override
-    protected String getHeader() {
-        return movie.getClassification();
     }
 
 }

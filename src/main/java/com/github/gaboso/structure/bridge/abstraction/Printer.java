@@ -10,8 +10,8 @@ public abstract class Printer {
         return formatter.format(getHeader(), getDetails());
     }
 
-    protected abstract List<Detail> getDetails();
-
     protected abstract String getHeader();
+
+    protected abstract List<Detail> getDetails();
 
 }

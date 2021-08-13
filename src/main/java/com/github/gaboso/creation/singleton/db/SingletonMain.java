@@ -17,7 +17,6 @@ public class SingletonMain {
 
         System.out.println("Time spent to create 1st connection: " + (timeAfter - timeBefore) + "ms");
 
-
         try (var statement = connection.createStatement()) {
             statement
                 .executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(20), City VARCHAR(20))");

@@ -7,7 +7,6 @@ import com.github.gaboso.behavior.mediator.receiver.Light;
 
 public class MediatorMain {
 
-
     public static void main(String[] args) {
         var mediator = new Mediator();
 

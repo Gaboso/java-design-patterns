@@ -13,10 +13,10 @@ public abstract class Website {
         this.createWebsite();
     }
 
+    public abstract void createWebsite();
+
     public List<Page> getPages() {
         return pages;
     }
-
-    public abstract void createWebsite();
 
 }

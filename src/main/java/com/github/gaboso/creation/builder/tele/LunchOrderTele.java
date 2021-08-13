@@ -7,13 +7,9 @@ public class LunchOrderTele {
     private String dressing;
     private String meat;
 
-    public LunchOrderTele(String bread) {
-        this.bread = bread;
-    }
-
-    public LunchOrderTele(String bread, String condiments) {
-        this(bread);
-        this.condiments = condiments;
+    public LunchOrderTele(String bread, String condiments, String dressing, String meat) {
+        this(bread, condiments, dressing);
+        this.meat = meat;
     }
 
     public LunchOrderTele(String bread, String condiments, String dressing) {
@@ -21,9 +17,13 @@ public class LunchOrderTele {
         this.dressing = dressing;
     }
 
-    public LunchOrderTele(String bread, String condiments, String dressing, String meat) {
-        this(bread, condiments, dressing);
-        this.meat = meat;
+    public LunchOrderTele(String bread, String condiments) {
+        this(bread);
+        this.condiments = condiments;
+    }
+
+    public LunchOrderTele(String bread) {
+        this.bread = bread;
     }
 
     public String getBread() {

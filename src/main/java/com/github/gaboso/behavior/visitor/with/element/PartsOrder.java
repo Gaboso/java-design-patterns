@@ -22,7 +22,6 @@ public class PartsOrder implements AtvPart {
         return Collections.unmodifiableList(parts);
     }
 
-
     @Override
     public void accept(AtvPartVisitor visitor) {
         for (AtvPart atvPart : parts) {

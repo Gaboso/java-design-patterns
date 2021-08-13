@@ -7,6 +7,13 @@ import com.github.gaboso.behavior.interpreter.expression.TerminalExpression;
 
 public class InterpreterMain {
 
+    public static void main(String[] args) {
+        String context = "Lions Bears";
+
+        Expression define = buildInterpreterTree();
+        System.out.println(context + " is " + define.interpret(context));
+    }
+
     static Expression buildInterpreterTree() {
         Expression terminalLions = new TerminalExpression("Lions");
         Expression terminalTigers = new TerminalExpression("Tigers");
@@ -16,13 +23,6 @@ public class InterpreterMain {
         Expression lionsOrTigersAndBears = new OrExpression(terminalLions, alternationTigersAndBears);
 
         return new AndExpression(terminalBears, lionsOrTigersAndBears);
-    }
-
-    public static void main(String[] args) {
-        String context = "Lions Bears";
-
-        Expression define = buildInterpreterTree();
-        System.out.println(context + " is " + define.interpret(context));
     }
 
 }

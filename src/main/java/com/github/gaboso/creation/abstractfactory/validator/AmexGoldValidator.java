@@ -4,10 +4,10 @@ import com.github.gaboso.creation.abstractfactory.product.CreditCard;
 
 public class AmexGoldValidator implements Validator {
 
-	@Override
-	public boolean isValid(CreditCard creditCard) {
+    @Override
+    public boolean isValid(CreditCard creditCard) {
 
-		return false;
-	}
+        return false;
+    }
 
 }

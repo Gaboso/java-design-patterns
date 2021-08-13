@@ -19,7 +19,6 @@ public class EmployeeClient {
         Employee employeeFromDB = new EmployeeDB("1234", "John", "Wick", "john@wick.com");
         employees.add(employeeFromDB);
 
-
         var employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
         employees.add(new EmployeeAdapterLdap(employeeFromLdap));
 

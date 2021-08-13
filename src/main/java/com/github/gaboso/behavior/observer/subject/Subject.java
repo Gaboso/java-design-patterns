@@ -9,9 +9,9 @@ public abstract class Subject {
 
     private final List<Observer> observers = new ArrayList<>();
 
-    public abstract void setState(String state);
-
     public abstract String getState();
+
+    public abstract void setState(String state);
 
     public void attach(Observer observer) {
         observers.add(observer);

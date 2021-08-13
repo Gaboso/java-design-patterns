@@ -1,6 +1,5 @@
 package com.github.gaboso.structure.composite.composite;
 
-
 import com.github.gaboso.structure.composite.component.MenuComponent;
 
 public class MenuItem extends MenuComponent {

@@ -3,7 +3,6 @@ package com.github.gaboso.structure.composite;
 import com.github.gaboso.structure.composite.composite.Menu;
 import com.github.gaboso.structure.composite.composite.MenuItem;
 
-
 public class CompositeMain {
 
     public static void main(String[] args) {

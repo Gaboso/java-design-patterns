@@ -11,18 +11,6 @@ public class Registry {
         loadItems();
     }
 
-    public Item createItem(String type) {
-        Item item = null;
-
-        try {
-            item = (Item) (items.get(type)).clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-
-        return item;
-    }
-
     private void loadItems() {
         Movie movie = new Movie();
         movie.setTitle("Basic Movie");
@@ -35,5 +23,17 @@ public class Registry {
         book.setPrice(19.99);
         book.setTitle("Basic Book");
         items.put("Book", book);
+    }
+
+    public Item createItem(String type) {
+        Item item = null;
+
+        try {
+            item = (Item) (items.get(type)).clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+
+        return item;
     }
 }

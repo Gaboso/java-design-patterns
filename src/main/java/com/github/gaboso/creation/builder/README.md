@@ -41,4 +41,4 @@ This pattern is useful to build different immutable objects using same object bu
 
 ### Reference
 
-1. https://dzone.com/articles/singleton-in-java
+1. [https://dzone.com/articles/singleton-in-java](https://dzone.com/articles/builder-design-pattern-in-java)
